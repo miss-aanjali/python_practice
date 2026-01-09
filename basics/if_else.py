@@ -1,5 +1,6 @@
 n=int(input("enter a number:"))
 
+
 if (n>0) :
      print("The number is positive")
 elif(n==0):
@@ -17,6 +18,7 @@ if(n>=18):
 else:
      print("the person is not eligible for voting")
 
+
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 if(a>b):
@@ -24,11 +26,13 @@ if(a>b):
 else:
      print("b is greater than a")
 
+
 marks = int(input("enter your marks:"))
 if(marks>40):
      print("you are passed") 
 else:
      print("better luck next time")
+
 
 year = int(input("enter a year:"))
 if year < 1000:
@@ -48,4 +52,37 @@ elif(mark>=75):
 elif(mark>=60):
      print("C")
 else:
-     print("fail")                
+     print("fail")
+
+
+a = int(input("Enter a number:"))
+b = int(input("Enter another number:"))
+o = input("Enter an operation number:")
+if (o=="+"):
+     sum = a+b
+     print("The sum of the numbers is:", sum)
+elif (o=="-"):
+     diff = a-b
+     print("The diffrence of the numbers is:", diff)          
+elif (o=="*"):
+     mul = a*b
+     print("The multiplication of the numbers is:", mul)
+elif (o=="/"):
+     div = a/b
+     print("The division of the numbers is:", div)
+else:
+     print("Enter a correct operator")
+
+
+ch = input("#Enter a character")
+if(len(ch) != 1):
+     print("please enter a single character")
+else:
+     if ch.isalpha():
+          ch = ch.lower()
+          if ch in "aeiou":
+               print("character is a vowel")
+          else:      
+               print("character is a consonant")
+     else:
+            print("character is not alphabet")                 
