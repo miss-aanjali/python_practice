@@ -97,3 +97,15 @@ else:
     bill = (100 * 0) + (100 * 5) + (units - 200) * 10
 
 print("Your electricity bill is: ₹", bill)
+
+a= int(input("Enter a number:"))
+b= int(input("Enter a number:"))
+c= int(input("Enter a number:"))
+if(a>b):
+     print("a is greater than b")
+     if(a>c):
+         print("a is the largest number.")
+     else:
+         print("c is the largest number.")      
+else:
+     print("b is the largest number.")
