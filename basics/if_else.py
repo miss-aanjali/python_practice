@@ -87,6 +87,8 @@ else:
      else:
             print("character is not alphabet")
 
+
+
 units = int(input("Enter units consumed: "))
 
 if units <= 100:
@@ -97,6 +99,8 @@ else:
     bill = (100 * 0) + (100 * 5) + (units - 200) * 10
 
 print("Your electricity bill is: ₹", bill)
+
+
 
 a= int(input("Enter a number:"))
 b= int(input("Enter a number:"))
